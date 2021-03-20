@@ -12,14 +12,14 @@ programa
 	
         inteiro tempoSegundos, horas,minutos, segundos
         
-        escreva("digite o Total de segundos do evento: ")
+        escreva("Qual a duração do evento em segundos? ")
         leia(tempoSegundos)
         
         horas = tempoSegundos/(3600)
         minutos = tempoSegundos%(3600)/60
         segundos = tempoSegundos%(3600)%60
 
-        escreva("O tempo do evento é ",horas, " horas ",minutos," minutos ",segundos, " segundos.")
+        escreva("O tempo do evento é ",horas, " horas, ",minutos," minutos e ",segundos, " segundos.")
 
     }
 }
@@ -28,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 647; 
+ * @POSICAO-CURSOR = 0; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

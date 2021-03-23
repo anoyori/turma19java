@@ -9,7 +9,7 @@ programa
 		
 	inteiro tipoConta
 		cadeia cpf
-		real saldo = 1000
+		real saldo = 1000.00
 		cadeia opcaoPoupanca
 		real debitoPoupanca
 		real creditoPoupanca
@@ -197,10 +197,10 @@ programa
 		}
 
 	funcao contaEspecial(real saldo) {
-		real limiteMax = 1000
+		real limiteMax = 1000.00
 		real pedidoEmprestimo
-		real limiteEmprestimo = 1000
-		real pedidoCredito = 0
+		real limiteEmprestimo = 1000.00
+		real pedidoCredito = 0.00
 		cadeia opcaoPoupanca
 		real debitoPoupanca
 		cadeia opcaoCred
@@ -256,8 +256,8 @@ programa
 	funcao contaEmpresa(real saldo) {
 		real limiteMax = 10000.0
 		real pedidoEmprestimo
-		real limiteEmprestimo = 10000
-		real pedidoCredito = 0
+		real limiteEmprestimo = 10000.0
+		real pedidoCredito = 0.0
 		cadeia opcaoPoupanca
 		real debitoPoupanca
 		cadeia opcaoCred
@@ -317,8 +317,8 @@ programa
 	funcao contaEstudantil(real saldo) {
 		real limiteMax = 5000.0
 		real pedidoEmprestimo
-		real limiteEmprestimo = 5000
-		real pedidoCredito = 0
+		real limiteEmprestimo = 5000.00
+		real pedidoCredito = 0.00
 		cadeia opcaoPoupanca
 		real debitoPoupanca
 		cadeia opcaoCred
@@ -405,8 +405,8 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 5076; 
- * @DOBRAMENTO-CODIGO = [128, 132, 140, 198, 255, 326, 316, 377, 383];
+ * @POSICAO-CURSOR = 126; 
+ * @DOBRAMENTO-CODIGO = [128, 132, 140, 326, 377, 383];
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -12,7 +12,8 @@ programa
 
 		// g = ganhou = 3 ponto, e = empatou = 1 ponto, p = perdeu = 0
 		// o [nome do time], g/p/e
-		//conforme a letra vc coloca dentro do vetor na posição do time 3,1,0 
+		//conforme a letra vc coloca dentro do vetor na posição do time 3,1,0
+		// saida = time + pontos 
 		
 
 		times[0] = "Palmeiras"
@@ -29,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 337; 
+ * @POSICAO-CURSOR = 369; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

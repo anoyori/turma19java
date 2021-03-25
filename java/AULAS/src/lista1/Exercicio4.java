@@ -35,7 +35,7 @@ package lista1;
 			//System.out.print("S = "+R);
 
 					
-			System.out.print("\nO valor de D é "+D);
+			System.out.printf("\nO valor de D é %.2f",D);
 			D = leia.nextDouble();
 			
 		}

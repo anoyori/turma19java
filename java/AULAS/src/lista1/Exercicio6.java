@@ -1,4 +1,4 @@
-package EXEMPLO;
+package lista1;
 
 import java.util.Scanner;
 import java.lang.Math;
@@ -32,7 +32,7 @@ public class Exercicio6 {
 		potenciaY = Math.pow((y2-y1),2);
 		d = Math.sqrt(potenciaX+potenciaY);
 
-		System.out.printf("\nD = %.2f",d);
+		System.out.printf("\nd = %.2f",d);
 				
 	}
 

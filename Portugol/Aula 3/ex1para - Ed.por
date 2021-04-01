@@ -5,7 +5,7 @@ programa
 	{
 		real salario = 0.00
 		inteiro filhos = 0
-		const real HABITANTES = 20
+		const real HABITANTES = 2
 		real mediaSalarios = 0.00
 		real totalSalarios = 0.00
 		real mediaFilhos = 0.00
@@ -80,7 +80,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 104; 
+ * @POSICAO-CURSOR = 103; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

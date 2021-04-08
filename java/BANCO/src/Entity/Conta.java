@@ -2,8 +2,8 @@ package Entity;
 
 public class Conta {
 
-	private int numero;
-	private String cpf;
+	public int numero;
+	public String cpf;
 	private double saldo;
 	public boolean ativa;
 	

@@ -5,22 +5,19 @@ public class Cachorro extends Animal{
 	//atributos
 	public String deveCorrer;
 	
-	//sobrecarga
-	public Cachorro() {
-		
-	}
 	
 	//construtor
-	public Cachorro(String nome, int idade, String emiteSom, String deveCorrer) {
+	public Cachorro(String nome, int idade, String emiteSom) {
 		super(nome, idade, emiteSom);
-		this.deveCorrer = deveCorrer;
 	}
 	
 	//métodos
 	public String Movimento() {
 		return "Cachorro corre";
 	}
-	public String Som() {
-		return "AuAu!";
+
+	@Override
+	public String som() {
+		return "Emite o som: " + emiteSom;
 	}
 }

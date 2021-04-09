@@ -16,8 +16,10 @@ public class Cavalo extends Animal {
 	public String Movimento() {
 		return "Cavalo corre";
 	}
-	public String Som() {
-		return "hinn in in";
+	
+	@Override
+	public String som() {
+		return "Emite o som: " + emiteSom;
 	}
 	
 }

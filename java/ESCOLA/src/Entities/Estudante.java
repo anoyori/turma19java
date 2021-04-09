@@ -1,6 +1,6 @@
 package Entities;
 
-public class Estudante {
+public abstract class Estudante {
 	
 	private int matricula; //só podem ser vistos
 	private String cpf; //só podem ser vistos
@@ -14,7 +14,7 @@ public class Estudante {
 		this.matricula = matricula;
 		this.cpf = cpf;
 	}
-
+	
 	//encapsulamento
 	public int getMatricula() {
 		return matricula;

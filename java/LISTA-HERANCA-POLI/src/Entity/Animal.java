@@ -18,5 +18,8 @@ public class Animal {
 		this.emiteSom = emiteSom;
 	}
 
-	//métodos
+	//metodo
+	public String som() {
+		return "Emite o som: ";
+	}
 }

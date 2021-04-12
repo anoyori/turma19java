@@ -20,6 +20,7 @@ public class Teste {
 		prod2.incluirEstoque(10);
 		prod3.incluirEstoque(1000);
 		
+	
 		System.out.print(prod1.getDescricao() + " R$ "+prod1.getValorUnitario());
 		System.out.print("\nEstoque: " + prod1.getQtdeEstoque());
 		prod1.setValorUnitario(80.55);

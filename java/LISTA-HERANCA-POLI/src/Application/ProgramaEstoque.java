@@ -26,6 +26,8 @@ public class ProgramaEstoque {
 		estoque.add("Calça");
 		estoque.add("Sapato");
 		
+		System.out.println(estoque);
+		
 		//remove dados
 		estoque.remove("Sapato");
 		System.out.println(estoque);
